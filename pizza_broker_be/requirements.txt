@@ -1,0 +1,8 @@
+uvicorn
+google-adk
+fastapi
+httpx
+fastmcp
+pydantic
+mysql-connector-python
+CORSMiddleware
