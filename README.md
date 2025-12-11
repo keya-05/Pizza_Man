@@ -21,7 +21,7 @@ graph LR
     %% Subgraph for MCP Tooling
     subgraph MCP ["MCP Layer (shop_tools.py)"]
         direction TB
-        T1[Tool: get_menu_keys]
+        T1[Tool: get_menu_items]
         T2[Tool: check_price]
         D[(MySQL DB)]
         
