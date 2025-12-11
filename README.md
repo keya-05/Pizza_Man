@@ -5,8 +5,6 @@
 
 ## 🏗️ Architecture & Workflow
 
-This project follows a **Client-Agent-Tool** architecture:
-
 1.  **Frontend (React):** Captures user natural language (e.g., "Price of Pepperoni?").
 2.  **API Layer (FastAPI):** Receives the message via a POST request.
 3.  **The Brain (Agent):**  Dynamically fetches the current menu from the Database to understand valid items and detects intent (e.g., specific pizza inquiry).
